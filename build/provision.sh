@@ -36,7 +36,10 @@ get_resource_repos () {
 # ------------------------------------------------------------
 # get stuff
 
-[[ ! -f "index.html" ]] && get_resource_files
+if [ ! -f "../index.html" ]; then
+    get_resource_files
+    mv index.html ..
+fi
 
 get_resource_repos
 
