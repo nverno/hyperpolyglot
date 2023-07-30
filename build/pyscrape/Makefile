@@ -1,6 +1,6 @@
-emacs ?= emacs
+emacs  ?= emacs
 python ?= python
-wget ?= wget
+wget   ?= wget
 
 ifeq ($(OS), Windows_NT)
   python="C:/Program Files/Anaconda/python.exe"
