@@ -1,0 +1,4 @@
+* cache locations
+* update cache
+* better interface
+* convert section to org-table
